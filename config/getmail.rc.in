@@ -1,0 +1,14 @@
+[options]
+delete = true
+
+[retriever]
+type = SimplePOP3SSLRetriever
+server = <INSERT MAILSERVER IP>
+username = <INSERT POP USERNAME>
+password = <INSERT POP PASSWORD>
+
+[destination]
+type = MDA_external
+path = ~rjt/Devel/Personal/PrintMail/print_mail.py
+
+

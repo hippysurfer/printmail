@@ -1,0 +1,4 @@
+/home/rjt/Devel/Personal/PrintMail/getmail.log {
+    rotate 3
+    size 100k
+}
